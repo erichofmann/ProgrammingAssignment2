@@ -1,10 +1,4 @@
 ## The functions will calculate matrix inversion whenever the result is not cached
-cachematrix<-function(x=matrix())
-{
-    z<-makeCacheMatrix(x)
-    res<-cacheSolve(z)
-    res
-}
 
 ## makeCacheMatrix is a list of functions
 ## which let "save" values on cache
